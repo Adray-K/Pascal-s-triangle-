@@ -1,0 +1,11 @@
+x = input().split()
+y = []
+while ' ' in x:
+    if ' ' in x[-1]:
+        del x[-1]
+    else:
+        y.append(x.pop())
+
+print(y)
+
+
